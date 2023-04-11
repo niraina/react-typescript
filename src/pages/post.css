@@ -1,0 +1,14 @@
+.post{
+    list-style: none;
+    padding: 12px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.post li{
+    width: 20%;
+    background: #c3c3c3;
+    text-align: center;
+    margin: 6px;
+}
