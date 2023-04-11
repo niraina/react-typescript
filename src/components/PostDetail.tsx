@@ -9,10 +9,10 @@ interface PostDetailProps {
 const PostDetail: React.FC<PostDetailProps> = ({onePost}) => {
   return (
     <div>
-      <h2>Publication numero: {onePost?.id}</h2>
+      <h2>Publication numéro: {onePost?.id} :-) </h2>
       <h3>{onePost?.title}</h3>
       <p>{onePost?.body}</p>
-      <Link to="/">Retour</Link>
+      <Link to="/">Retour à l'accueil</Link>
     </div>
   )
 }
